@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL maintainer="n-isaka@tsh-world.co.jp"
+LABEL maintainer="nasreddine.salem@yahoo.fr"
 
 # install yum package
 RUN yum install -y gcc gcc-devel gcc-c++ make bison flex gmp-devel ncurses-devel postgresql-devel
